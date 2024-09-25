@@ -62,7 +62,7 @@ def get_pyx():
 
 setup(
     name='aiozyre',
-    version='1.1.5',
+    version='1.1.6',
     description='asyncio-friendly Python bindings for Zyre',
     long_description=long_description,
     long_description_content_type="text/markdown",

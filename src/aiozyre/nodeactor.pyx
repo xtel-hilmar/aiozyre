@@ -418,7 +418,7 @@ cdef class NodeActor:
                 self.stopped.set_result(True)
 
 
-cdef void node_act(z.zsock_t * pipe, void * _self) nogil:
+cdef void node_act(z.zsock_t * pipe, void * _self) noexcept nogil:
     """
     Long running function that handles inputs and outputs from zyre <-> Node.
 

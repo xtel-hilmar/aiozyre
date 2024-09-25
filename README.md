@@ -25,6 +25,10 @@ Pull requests are welcome, please file any issues you encounter.
 
 ## Changelog
 
+### v1.1.6 (2024-09-23)
+
+* Support for Python 3.12
+
 ### v1.1.5 (2020-07-22)
 
 * Fix memory leak where zlist items were not being freed
